@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div className="mx-auto">
+        <header
+            class="bg-blue-800 text-white text-center flex flex-col md:flex-row md:justify-between items-center space-y-4 md:space-y-0 p-1">
+            <div class="flex flex-col md:flex-row items-center space-x-4">
+                <div class="flex items-center space-x-2 md:ml-20">
+                    <CiMail />
+                    <p class="text-lg font-bold mt-2">firstalarmllc@gmail.com</p>
+                </div>
+                <p class="text-md hidden md:block"></p>
+                <div class="flex items-center space-x-2">
+                    <FaPhone />
+                    <p class="text-md font-bold mt-2">800-339-6468</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 md:space-x-56">
+                <button
+                    class="btn btn-danger bg-red-900 whitespace-nowrap px-4 py-2 rounded-xl font-bold tracking-widest justify-center">Schedule
+                    An Appointment</button>
+                <input type="text" placeholder="Search here..." class="py-1 text-sm" />
+            </div>
+        </header>
+        <nav class="bg-white p-2 text-blue-500 font-bold">
+            <ul class="flex flex-col md:flex-row justify-around items-center space-y-2 md:space-y-0">
+                <img src="/images/logo.png" alt="First Alarm LLC Logo" className="w-30 h-14" />
+                <li><a href="/" class="text-blue-900 hover:text-red-800">Home</a></li>
+                <li><a href="/about" class="text-blue-900 hover:text-red-800">About us</a></li>
+                <li><a href="/products" class="text-blue-900 hover:text-red-800">Products</a></li>
+                <li><a href="/services" class="text-blue-900 hover:text-red-800">Services</a></li>
+                <li><a href="/gallery" class="text-blue-900 hover:text-red-800">Gallery</a></li>
+                <li><a href="/builders" class="text-blue-900 hover:text-red-800">Builders</a></li>
+                <li><a href="/instructions" class="text-blue-900 hover:text-red-800">User instructions</a></li>
+                <li><a href="/locations" class="text-blue-900 hover:text-red-800">Locations We Serve</a></li>
+                <li><a href="/testimonials" class="text-blue-900 hover:text-red-800">Testimonials</a></li>
+                <li><a href="/contact" class="text-blue-900 hover:text-red-800">Contact us</a></li>
+                <li><a href="/contact" class="text-blue-900 hover:text-red-800">Blog</a></li>
+            </ul>
+        </nav>
+        <img src="/images/hero.jpeg" alt="" className="w-30 h-14" />
+        <div class="bg-red-900 text-center p-2 text-white font-semi-bold text-2xl">Protect everyone. Protect everything.
+            Keep your home, family and business safer with security that never stops. Let's go.</div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/Images/ab.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-4xl font-bold tracking-wider">About Us</h2>
+                    <p class="font-semibold tracking-wide">Founded in 1985, First Alarm LLC has evolved from a humble
+                        beginning into a leading Security
+                        Solutions Provider, offering comprehensive services across Massachusetts and Southern New
+                        Hampshire. Our expertise spans both residential and commercial sectors, including home
+                        automation systems, and we have established strong partnerships with New Home Builders and
+                        Remodelers.</p>
+                    <p class="font-semibold tracking-wide">Boasting nearly four decades of experience, First Alarm LLC
+                        is celebrated for its unwavering
+                        commitment to community safety and customer satisfaction. Our reputation for excellence is not
+                        just reflected in the trust and loyalty of our clients, but also in the professional accolades
+                        we've received for our quality services. At First Alarm LLC, protecting your peace of mind is at
+                        the heart of everything we do.</p>
+                    <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container bg-slate-500 mt-5">
+            <h2 class="text-center mb-5">Your Complete Security Suite</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Images/p1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center font-bold text-2xl">Security Alarm Systems</h5>
+                            <p class="card-text text-center">At First Alarm LLC our team of Reliable Security
+                                Professionals is
+                                dedicated to your safety. We recognize the pivotal role.</p>
+                            <div class="flex justify-center items-center h-screen">
+                                <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Images/p2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center font-bold text-2xl">Fire Alarm Systems</h5>
+                            <p class="card-text text-center">At First Alarm LLC we understand that selecting a Fire
+                                Alarm System can
+                                be a daunting task. There are a variety of options.</p>
+                            <div class="flex justify-center items-center h-screen">
+                                <button class="mt-1 btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Images/p3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center font-bold text-2xl">Surveillance Wired/Wireless</h5>
+                            <p class="card-text text-center">We stand behind the quality of our service and we'll always
+                                work hard
+                                to provide you with convenient and all inclusive care.</p>
+                            <div class="flex justify-center items-center h-screen">
+                                <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 mt-16 flex flex-col md:flex-row items-center md:ml-20">
+            <div class="flex-1 mb-4 md:mb-0">
+                <img src="/Images/p4.jpg" alt="" class="max-w-full h-auto" />
+            </div>
+            <div class="flex-1 p-4">
+                <h2 class="font-bold text-black text-4xl">Find Your Perfect System</h2>
+                <h4 class="mt-6">Your questions answered</h4>
+                <p>We built both the hardware and software, so it all works seamlessly together</p>
+                <h4>Tips for your home and budget</h4>
+                <p>We engineer our products to be easy to learn and fast to install so you can complete more jobs</p>
+                <h4>Build a system for your needs</h4>
+                <p>A beautifully unified app and touchscreen experience will delight your customers</p>
+                <h4>See if Pro Install is right for you</h4>
+                <p>A beautifully unified app and touchscreen experience will delight your customers</p>
+                <button class="btn btn-primary bg-blue-800 font-bold rounded-3xl px-10 py-2 mt-4">Schedule An Appointment</button>
+            </div>
+        </div>
+        
+        
+
+        <div class="relative bg-black p-8">
+            <div class="absolute inset-0">
+
+            </div>
+            <div class="relative flex flex-col md:flex-row justify-around items-center text-white p-6">
+                <div class="text-center md:text-left font-bold text-4xl">
+                    <p class="mb-4">We are very proud to be serving</p>
+                    <p class="mb-4">our local area for over 40 years!</p>
+                </div>
+                <button
+                    class="bg-red-800 hover:bg-cyan-600 border border-gray-400 text-white text-2xl font-bold py-3 px-10 rounded">CALL
+                    800-339-6468</button>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="text-left mb-2 font-bold">Our Products</h2>
+            <p class="tracking-wide">No matter where you go, always have a window to your home.<br /> With cameras that feature live look-in,
+                you can keep an eye on whats<br /> happening at home</p>
+            <div class="row">
+                <div class=" col-md-6">
+                    <div class="flex gap-6">
+                        <div>
+                            <h3 class="text-red-800 text-xl font-bold">Advanced Alarm Systems:</h3>
+                            <p>State-of-the-art technology to keep your property secure.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-red-800 text-xl font-bold">Comprehensive Surveillance Solutions:</h3>
+                            <p>High-definition cameras and monitoring for complete visibility.</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <h3 class="text-red-800 text-xl font-bold">Smart Home Automation:</h3>
+                            <p>Seamlessly connect and control your security devices.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-red-800 text-xl font-bold">24/7 Monitoring Services:</h3>
+                            <p>Round-the-clock professional monitoring for your peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="text-left mt-5">
+                        <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Browse Our Products</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="/Images/p5.jpg" alt="" class="img-fluid h-100">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-5 bg-blue-700">
+            <h1 class="text-center font-bold">Why Choose Us</h1>
+            <h2 class="text-center">Fully Licensed, Bonded, And Insured</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4 text-center mt-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="/Images/p6.jpg" class="card-img-top" alt="">
+                        <div class="card-body ">
+                            <h5 class="card-title text-2xl font-bold">Complete Solution</h5>
+                            <p class="card-text">Comprehensive security solutions designed for your peace of mind. From alarm systems to surveillance and life safety equipment.</p>
+                            <button class="btn btn-primary bg-blue-900 rounded px-4 py-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/Images/p7.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-2xl font-bold">Best Experience</h5>
+                            <p class="card-text">For the best experience, rely on First Alarm LLC's expertise in security solutions. With decades of proven excellence, we prioritize your safety.</p>
+                            <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/Images/p8.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-2xl font-bold">Fastest Install</h5>
+                            <p class="card-text">Get the fastest installation with First Alarm LLC. Our expert team ensures swift setup without compromising quality or security.</p>
+                            <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/Images/p9.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-2xl font-bold">Cost Advantage</h5>
+                            <p class="card-text">Benefit from our cost-effective solutions at First Alarm LLC. We offer competitive pricing without compromising on quality, ensuring affordability.</p>
+                            <button class="btn btn-primary bg-blue-900 rounded-full px-4 py-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-slate-100 p-6 mt-8 cursor-pointer">
+            <h3 class="font-bold text-5xl mb-4 text-center">Product Gallery</h3>
+            <div class="flex flex-wrap justify-center space-x-4 text-xl">
+                <div class="flex">
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p10.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Sensors</p>
+                <h3 class="px-5 mb-4">Alarm Cameras</h3>
+              </div>
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p11.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Sensors</p>
+                <h3 class="px-5">Fire Security Alarm</h3>
+              </div>
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p12.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Sensors</p>
+                <h3 class="px-5">Life Safety</h3>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p13.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Cameras</p>
+                <h3 class="px-5 mb-4">Door Bell Cameras</h3>
+              </div>
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p14.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Security</p>
+                <h3 class="px-5">Digital Door Lock</h3>
+              </div>
+              <div class="bg-gray-100 m-2 shadow-lg w-1/4">
+                <img src="/Images/p15.jpg" class="card-img-top" alt="">
+                <p class='mt-4 px-5'>Sensors</p>
+                <h3 class="px-5">Flood Alarm</h3>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <h1 class="text-center mt-2 mb-4 text-5xl font-bold">Frequently Asked Questions</h1>
+                <div class="col-md-6">
+                    <img src="/Images/p16.jpg" alt="" class="img-fluid mb-4">
+                </div>
+                <div class="col-md-6">
+                    <p class="font-semibold tracking-wide bg-black text-white p-2">How can our smart security systems help you?</p>
+                    <p class="font-semibold tracking-wide bg-black text-white p-2">Protect your home or your business with advanced security systems</p>
+                    <p class="font-semibold tracking-wide bg-black text-white p-2">How is firstalarmllc.com different?</p>
+                    <button class="btn btn-danger rounded-full px-4 py-2">More FAQs</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class='bg-white'>
+            <div class='bg-black p-4'>
+                <h2 class=" text-white text-5xl font-bold ">We're Always on Guard</h2>
+                <p class='font-bold text-white text-xl'>24/7 Monitoring</p>
+                <p class='font-bold text-white text-xl mt-6'>Our dedicated monitoring centers operate around the clock,
+                    <br />
+                    providing constant surveillance to promptly respond to any alarm,
+                    <br />
+                    offering you and your loved ones continuous protection.
+                </p>
+                <button
+                    class="btn btn-primary font-bold bg-blue-800 hover:bg-black px-6 py-2.5 tracking-wider rounded text-xl mt-4">Book
+                    A Free Demo</button>
+            </div>
+        </div>
+        <footer class="bg-white mt-3">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center px-4 md:px-20">
+                <div class="flex flex-col mb-4 md:mb-0">
+                    <img src="/Images/logo.png" alt="First Alarm Logo" class="mb-2" />
+                    <p>
+                        <a href="mailto:firstalarmllc@gmail.com" class="flex items-center font-bold">
+                            firstalarmllc@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:800-339-6468" class="flex items-center font-bold">
+                            800-339-6468
+                        </a>
+                    </p>
+                    <p class="text-blue-700 font-bold text-xl mt-4">Locate us</p>
+                    <p class="font-bold">100 Trade Center, Suite G-700</p>
+                    <p class="font-bold">Woburn, MA 01801 &</p>
+                    <p class="font-bold">Danvers, MA 01923</p>
+                </div>
+                <div class="flex flex-col mb-4 md:mb-0 md:ml-20">
+                    <h4 class="font-bold mb-2 text-2xl text-blue-500 items-center">Quick Links</h4>
+                    <a href="/services" class="text-black font-bold text-xl mb-1">Services</a>
+                    <a href="/products" class="text-black font-bold text-xl mb-1">Products</a>
+                    <a href="/testimonials" class="text-black font-bold text-xl mb-1">Testimonials</a>
+                    <a href="/blog" class="text-black font-bold text-xl mb-1">Blog</a>
+                    <a href="/contact" class="text-black font-bold text-xl mb-1">Contact Us</a>
+                    <a href="/sitemap" class="text-black font-bold text-xl mb-1">Sitemap</a>
+                    <a href="/faqs" class="text-black font-bold text-xl mb-1">FAQs</a>
+                </div>
+                <div class="flex flex-col mb-4 md:mb-0 md:ml-20 items-center md:items-start justify-center">
+                    <p class="text-blue-500 font-semibold text-xl items-end text-end">Get a Free Quote</p>
+                    <div class="flex space-x-2 text-3xl mt-4">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-950">
+                            <i class="fa-brands fa-square-facebook">F</i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-950">
+                            <i class="fa-brands fa-square-twitter">T</i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-950">
+                            <i class="fa-brands fa-linkedin">L</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="text-center">
+            <p class='bg-black text-white p-2 font-semibold '>Copyright © 2024 | Website Developed by CROSS Digital</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
